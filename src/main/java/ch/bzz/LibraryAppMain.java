@@ -9,7 +9,7 @@ public class LibraryAppMain {
         Map<String, Runnable> commands = new HashMap<>();
 
         Connection c = DriverManager.getConnection(
-                "jdbc:postgresql://localhost:5432/local_db", "postgres", "182007"
+                "jdbc:postgresql://localhost:5432/local_db", "postgres", "_"
         );
 
 
