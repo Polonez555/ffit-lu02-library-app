@@ -1,0 +1,20 @@
+# Database Configuration Template
+# Copy this file to config.properties and fill in your actual values
+# config.properties will not be committed to Git for security reasons
+
+# JPA/Hibernate Database Configuration
+# These properties will be used by the EntityManagerFactory
+
+# Database connection URL
+jakarta.persistence.jdbc.url=jdbc:postgresql://localhost:5432/your_database_name
+
+# Database username
+jakarta.persistence.jdbc.user=your_username
+
+# Database password
+jakarta.persistence.jdbc.password=your_password
+
+# Legacy properties (kept for backward compatibility if needed)
+DB_URL=jdbc:postgresql://localhost:5432/your_database_name
+DB_USER=your_username
+DB_PASSWORD=your_password

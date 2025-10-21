@@ -1,0 +1,2 @@
+createuser Anna Schmidt 1992-08-15 anna.schmidt@example.com geheim789
+quit
